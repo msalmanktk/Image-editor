@@ -72,6 +72,10 @@ main section .bottom {
   /* aspect ration width vs height 1/1=width= height
   , 1/2 height = 2width*/
   border-radius: var(--border-radius-2xl);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
 }
 main section .bottom .placeholder {
   display: flex;
@@ -126,3 +130,13 @@ main section .right .filter input::-webkit-slider-runnable-track {
   border-radius: 2px;
 }
 /* main section .right .filter input ::-webkit-sli */
+canvas {
+  display: none;
+  /* background-color: red; */
+  max-width: 90%;
+  max-height: 80vh;
+}
+/* img {
+  width: 200px;
+  object-fit: cover;
+} */
